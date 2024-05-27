@@ -1,0 +1,85 @@
+*{
+    color: #67748e;
+    margin: 0;
+    padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px black solid;
+}
+.logo{
+    float: left;
+}
+.header{
+    box-shadow: 0 0 ;
+}
+.menu{
+    text-align: right;
+    background-color: honeydew;
+}
+.Ablog{
+    width: calc(100%-10px);
+    height: 500px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://images.unsplash.com/photo-1716668596098-40ff5f73fb9e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    position: relative;
+    border-radius: 25px;
+}
+.mainimg{
+    width:50%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.mainimg p{
+    color: white;
+    font: 20px;
+    font-weight: 300;
+}
+.mainthirdDiv{
+    display: flex;
+    padding: 40px 75px;
+}
+.mainthirdDiv div img{
+    width: 300px;
+    border-radius: 25px;
+}
+.mainsecondDiv{
+    display: flex;
+    padding: 0 75px;
+}
+.secondimgdiv{
+    display: flex;
+}
+.secondtextdiv{
+    display: grid;
+}
+.secondimgdiv div img{
+    width: 400px;
+    border-radius: 25px;
+}
+.mainfourthdiv{
+    display: flex;
+    padding: 0 75px;
+}
+.fourthtextdiv{
+    display: grid;
+    justify-content: space-evenly;
+}
+.fourthimgdiv img{
+    border-radius: 25px;
+    width: 750px;
+}
+footer div{
+    padding: 50px;
+    display: inline-block;
+    lin
+}
